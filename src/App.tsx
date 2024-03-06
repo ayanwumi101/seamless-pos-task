@@ -7,7 +7,7 @@ import Header from './components/Header'
 import { getAllProductsApi } from './pages/apis'
 
 
-export const ProductsContext = createContext(null)
+export const ProductsContext = createContext({} as any)
 
 function App() {
 

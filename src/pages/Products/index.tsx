@@ -5,7 +5,7 @@ import { ProductsContext } from "../../App"
 
 
 const Products = () => {
-  const { products } = useContext<ProductsContextType>(ProductsContext);
+  const { products } = useContext(ProductsContext);
   return (
     <Box w='95%' my='14' mx='auto'>
       <Flex alignItems='center' flexWrap='wrap' rowGap='35px' justifyContent={{base: 'center', md:'space-between', lg: 'space-between'}}>
