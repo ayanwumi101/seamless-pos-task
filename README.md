@@ -1,30 +1,56 @@
-# React + TypeScript + Vite
+# Simple E-Commerce Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple e-commerce application built with React. It consists of two main pages: the Products page and the Product Details page. The Products page displays all available products fetched from the [FakeStoreAPI](https://fakestoreapi.com/), while the Product Details page provides detailed information about a specific product when clicked.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View all available products on the Products page.
+- Click on any product to view its details on the Product Details page.
+- Responsive design for seamless browsing on various devices.
+- Smooth scrolling functionality provided by the locomotive-scroll library.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [Chakra UI](https://chakra-ui.com/): A simple, modular and accessible component library for React.
+- [react-router-dom](https://reactrouter.com/web/guides/quick-start): Declarative routing for React applications.
+- [locomotive-scroll](https://github.com/locomotivemtl/locomotive-scroll): Smooth scrolling library for modern web applications.
+- [Axios](https://axios-http.com/): Promise-based HTTP client for the browser and Node.js.
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clone the repository:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [GitHub Repository](https://github.com/ayanwumi101/seamless-pos-task)
+
+
+2. Navigate to the project directory:
+
+
+3. Install dependencies:
+
+
+4. Start the development server:
+
+
+5. Open your browser and visit `http://localhost:3000` to view the application.
+
+## Folder Structure
+
+- **src/components**: Contains reusable components used throughout the application.
+- **src/pages**: Contains page components for Products and Product Details.
+- **src/utils**: Contains utility functions and helper modules.
+- **src/App.js**: Main application component where routing and context setup are configured.
+- **src/index.js**: Entry point of the application.
+
+## Credits
+
+- [FakeStoreAPI](https://fakestoreapi.com/): A free fake REST API for testing and prototyping.
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request for any improvements or features you'd like to add.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use and modify it as per your requirements.
